@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "quote-generator/node_modules/.bin/next dev",
+    "build": "quote-generator/node_modules/.bin/next build",
+    "start": "quote-generator/node_modules/.bin/next start",
+    "lint": "quote-generator/node_modules/.bin/next lint"
   },
   "dependencies": {
     "@types/node": "20.4.5",
